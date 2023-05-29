@@ -1,0 +1,13 @@
+idea
+class for each team (each team is an object)
+each round within each class is its data structure
+OR 
+all information in one structure
+for each round need the following
+round score
+round winner
+then total you need
+name
+total score
+total game points
+then create matchups from that information 

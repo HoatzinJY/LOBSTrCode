@@ -1,0 +1,34 @@
+classdef team
+    %TEAM Summary of this class goes here
+    %   Detailed explanation goes here
+    
+    properties
+        name;
+        number;
+        roundone;
+        roundtwo;
+        roundthree;
+        roundfour;
+        totalscore;
+        totalwins;
+        totalloss;
+        totaldraw;
+        gamepoints;
+    end
+    
+    methods
+        function obj = maketeam(teamname,teamnumber)
+            obj.name = teamname;
+            obj.number = teamnumber;
+        end
+
+        function
+        
+        function outputArg = method1(obj,inputArg)
+            %METHOD1 Summary of this method goes here
+            %   Detailed explanation goes here
+            outputArg = obj.Property1 + inputArg;
+        end
+    end
+end
+
